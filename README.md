@@ -10,12 +10,26 @@
 - Repository URL: https://github.com/tauhidhasan811/multi-class-dress-analysis  
 
 **Run Instructions**  
-a. Clone the repository: `git clone https://github.com/tauhidhasan811/multi-class-dress-analysis.git`  
-b. Create a virtual environment: `py -3.11 -m venv venv` *(replace 3.11 with your Python version)*  
+a. Clone the repository: 
+   ```bash
+   git clone https://github.com/tauhidhasan811/multi-class-dress-analysis.git
+   ``` 
+b. Create a virtual environment: 
+   ```bash
+   py -3.11 -m venv venv` *(replace 3.11 with your Python version)*
+   ```
 c. Activate the virtual environment:  
-   - Windows: `venv\Scripts\activate`  
-   - Unix/Mac: `source venv/bin/activate`  
-d. Install dependencies: `pip install -r requirements.txt`  
+   - Windows:
+        ```bash
+        venv\Scripts\activate```
+   - Unix/Mac:
+       ```bash
+        source venv/bin/activate
+        ```   
+d. Install dependencies: 
+   ```bash
+   pip install -r requirements.txt
+```  
 e. Execute the primary notebooks (no .py entry point):  
    - `jupyter notebook 1 preprocessing.ipynb`  
    - `jupyter notebook 2 data_visulization.ipynb`  
